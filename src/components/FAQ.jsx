@@ -9,8 +9,23 @@ export const FAQ = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  const faqs = [
+    {
+      question: "What is the latest project from Grooth Studio?",
+      answer: "Currently, we are still developing with the battle theme",
+    },
+    {
+      question: "When was Grooth Studio founded?",
+      answer: "Grooth Studio was founded on April 19, 2024.",
+    },
+    {
+      question: "What type of games does Grooth Studio focus on?",
+      answer: "We focus on creating innovative and fun 2D games.",
+    },
+  ];
+
   const answerClass =
-    "pl-17 max-md:pl-6 py-4 pr-4 hover:shadow-md w-[86vw] bg-[#3A86FE] text-white max-md:text-[14px] max-md:font-[500]";
+    "pl-17 max-md:pl-6 py-4 pr-4 w-[86vw] bg-[#3A86FE] text-white max-md:text-[14px] max-md:font-[500]";
 
   return (
     <div className="w-[100vw] h-fit mt-20 p-auto flex flex-col">
@@ -18,77 +33,40 @@ export const FAQ = () => {
         FAQ
       </h1>
       <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] justify-center">
-              <AnimatedContent
-
-      distance={60}
-      direction="vertikal"
-      reverse={false}
-      duration={0.8}
-      ease="bounce.out"
-      initialOpacity={0.2}
-      animateOpacity
-      scale={1.1}
-      threshold={0.2}
-      delay={0.2}
-
-      >
-        <BorderBox
-          className={`w-[93vw] 
-            ${
-              openIndex !== null
-                ? "h-[48vh] md:h-[44vh] max-md:h-[70vh]"
-                : "h-[40vh] md:h-[36vh] max-md:h-[70vh]"
-            }
-            m-4 py-[8vh] px-[3vw] justify-around items-start gap-[1vw] flex-col`}
+        <AnimatedContent
+          distance={60}
+          direction="vertikal"
+          reverse={false}
+          duration={0.8}
+          ease="bounce.out"
+          initialOpacity={0.2}
+          animateOpacity
+          scale={1.1}
+          threshold={0.2}
+          delay={0.2}
         >
-          <div className="flex flex-col gap-y-4">
-            <div
-              className="p-4 hover:shadow-md w-[86vw] max-md:text-[14px] max-md:font-[500]"
-              onClick={() => toggleFAQ(0)}
-            >
-              What is the latest project from Grooth Studio?
-            </div>
-            <div
-              className={`${
-                openIndex === 0 ? "block" : "hidden"
-              } ${answerClass}`}
-            >
-              &gt; Currently, We are still developing with the battle theme
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-y-4">
-            <div
-              className="p-4 hover:shadow-md w-[86vw] max-md:text-[14px] max-md:font-[500]"
-              onClick={() => toggleFAQ(1)}
-            >
-              What is the latest project from Grooth Studio?
-            </div>
-            <div
-              className={`${
-                openIndex === 1 ? "block" : "hidden"
-              } ${answerClass}`}
-            >
-              &gt; We are still developing with the battle theme
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-y-4">
-            <div
-              className="p-4 hover:shadow-md w-[86vw] max-md:text-[14px] max-md:font-[500]"
-              onClick={() => toggleFAQ(2)}
-            >
-              What is the latest project from Grooth Studio?
-            </div>
-            <div
-              className={`${
-                openIndex === 2 ? "block" : "hidden"
-              } ${answerClass}`}
-            >
-              &gt; Currently, We are still developing with the battle theme
-            </div>
-          </div>
-        </BorderBox>
+          <BorderBox className="w-[93vw] h-[70vh] m-4 py-[8vh] px-[3vw] justify-around items-start gap-[1vw] flex-col">
+            {faqs.map((faq, index) => (
+              <div key={index} className="flex flex-col gap-y-2">
+                <div
+                  className="p-4 hover:shadow-md w-[86vw] max-md:text-[14px] max-md:font-[500] cursor-pointer"
+                  onClick={() => toggleFAQ(index)}
+                >
+                  {faq.question}
+                </div>
+                <div
+                  className={`
+                    ${answerClass}
+                    transition-all duration-500 ease-in-out
+                    overflow-hidden
+                    ${openIndex === index ? "max-h-40 opacity-100 py-4" : "max-h-0 opacity-0 py-0"}
+                  `}
+                >
+                  &gt; {faq.answer}
+                </div>
+              </div>
+            ))}
+          </BorderBox>
         </AnimatedContent>
       </div>
     </div>

@@ -97,7 +97,7 @@ const NewestNews = () => {
         delay={0.2}
 
       >
-    <BorderBox className="w-[93vw] h-[53vh] m-4 flex flex-col p-[3vw] justify-start gap-[3vw]">
+    <BorderBox className="w-[93vw] h-[70vh] m-4 flex flex-col p-[3vw] justify-start gap-[3vw]">
       <div className="bg-[#3A86FE] rounded-t-3xl w-full px-[2vw] py-[1vw]">
         <h2 className="text-[2.088vw] text-white font-semibold">
           {new Date(news.updatedAt).toLocaleString("en-US", {

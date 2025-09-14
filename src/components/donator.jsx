@@ -4,7 +4,7 @@ import Ig from "../assets/Vector.svg"
 
 export const Donator = () => {
     return (
-        <div className="w-[100vw] max-h-[100vh] h-[100vh] max-h-[100vh] m-0 p-auto flex flex-col font-600 text-semibold font-[48px] items-center justify-center">
+        <div className="w-[100vw] max-h-[100vh] h-[100vh] m-0 p-auto flex flex-col font-600 text-semibold font-[48px] items-center justify-center">
             <div className="w-[93%] h-[100%] flex flex-col items-center justify-center gap-[50px]">
             <h1 className="text-600 font-semibold text-[48px] max-md:text-[32px] font-poppins text-start self-start text-[#3A86FE]">Our Donator</h1>
                 <BorderBox className="w-[100%] h-[73vh]">

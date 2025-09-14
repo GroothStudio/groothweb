@@ -117,12 +117,22 @@ html {
   max-width: 100vw;
   overflow-x: hidden;
   display: flex;
+  justify-content: center;
   align-items: center;
   width: 100vw;
   height: fit-content;
   font-family: "Poppins";
 }
-
+body{
+  max-width: 100vw;
+  width: 100vw;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+}
 @theme {
   --breakpoint-xs: 320px;
 }
