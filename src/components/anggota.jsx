@@ -65,7 +65,7 @@ const anggota2 = () => {
       delay={0.2}
     >
       <BorderBox
-        className="w-[85.7%] max-xl:w-[93vw] max-md:h-[44vh] h-[60vh] lg:h-[37vw] flex flex-col p-[1vw]"
+        className="w-[86%] max-xl:w-[93vw] max-md:h-[44vh] h-[60vh] lg:h-[37vw] flex flex-col p-[1vw]"
       >
         <div className="flex flex-col h-[90%] max-md:h-[85%] justify-around max-xl:items-center max-md:gap-[32px]">
           <div className="top-20 w-[39.5vw] max-xl:w-[85%] flex flex-col gap-[40px] max-md:gap-[16px] lg:gap-[26px]">
@@ -114,7 +114,7 @@ export const Anggota = () => {
             grid
             grid-cols-1
             xl:grid-cols-2
-            gap-[4vw]
+            gap-[2vw]
             max-xl:gap-[6vw]
             pt-[5vh]
             pb-[20vh]

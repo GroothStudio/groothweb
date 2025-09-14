@@ -12,7 +12,7 @@ export const FAQ = () => {
   const faqs = [
     {
       question: "What is the latest project from Grooth Studio?",
-      answer: "Currently, we are still developing with the battle theme",
+      answer: "Currently, we are still developing game with the battle theme",
     },
     {
       question: "When was Grooth Studio founded?",
@@ -20,7 +20,7 @@ export const FAQ = () => {
     },
     {
       question: "What type of games does Grooth Studio focus on?",
-      answer: "We focus on creating innovative and fun 2D games.",
+      answer:   "We focus on developing innovative games.",
     },
   ];
 
