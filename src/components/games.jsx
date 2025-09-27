@@ -1,26 +1,15 @@
 import { BorderBox } from "./box";
 import OurGamesLogo from "../assets/Our Games Logo.svg";
-import AnimatedContent from "../AnimatedContent/AnimatedContent";
+import FadeContent from './FadeContent'
 
 export const Games = () => {
   return (
     <div className="w-[100vw] h-fit mt-20 p-auto flex flex-col">
-      <h1 className="text-600 font-semibold text-[48px] max-md:text-[32px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
+      <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
         Our Games
       </h1>
-      <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] justify-center">
-            <AnimatedContent
-      distance={60}
-      direction="vertikal"
-      reverse={false}
-      duration={0.8}
-      ease="bounce.out"
-      initialOpacity={0.2}
-      animateOpacity
-      scale={1.1}
-      threshold={0.2}
-      delay={0.2}
-    >
+      <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] max-md:pb-[10vh] justify-center">
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[100vh] max-md:h-[80vh] m-0 flex items-center justify-center">
         <BorderBox className="w-[93vw] h-[40vh] max-md:h-[80vh] m-4">
           <div className="flex p-[3vw] justify-start gap-[3vw] max-md:flex-col">
           <img
@@ -45,7 +34,7 @@ export const Games = () => {
           </div>
           </div>
         </BorderBox>
-        </AnimatedContent>
+        </FadeContent>
       </div>
     </div>
   );

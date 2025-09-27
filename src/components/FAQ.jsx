@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BorderBox } from "./box";
-import AnimatedContent from "../AnimatedContent/AnimatedContent";
+import FadeContent from './FadeContent'
 
 export const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -29,22 +29,11 @@ export const FAQ = () => {
 
   return (
     <div className="w-[100vw] h-fit mt-20 p-auto flex flex-col">
-      <h1 className="text-600 font-semibold text-[48px] max-md:text-[32px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
+      <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
         FAQ
       </h1>
-      <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] justify-center">
-        <AnimatedContent
-          distance={60}
-          direction="vertikal"
-          reverse={false}
-          duration={0.8}
-          ease="bounce.out"
-          initialOpacity={0.2}
-          animateOpacity
-          scale={1.1}
-          threshold={0.2}
-          delay={0.2}
-        >
+      <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] max-md:pb-[10vh] justify-center">
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[100vh] max-md:h-[80vh] m-0 flex items-center justify-center">
           <BorderBox className="w-[93vw] h-[70vh] m-4 py-[8vh] px-[3vw] justify-around items-start gap-[1vw] flex-col">
             {faqs.map((faq, index) => (
               <div key={index} className="flex flex-col gap-y-2">
@@ -67,7 +56,7 @@ export const FAQ = () => {
               </div>
             ))}
           </BorderBox>
-        </AnimatedContent>
+        </FadeContent>
       </div>
     </div>
   );
