@@ -33,7 +33,7 @@ export const FAQ = () => {
         FAQ
       </h1>
       <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] justify-center">
-      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[100vh] max-md:h-[80vh] m-0 flex items-center justify-center">
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-fit max-md:h-[80vh] m-0 flex items-center justify-center">
           <BorderBox className="w-[93vw] h-[70vh] m-4 py-[8vh] px-[3vw] justify-around items-start gap-[1vw] flex-col">
             {faqs.map((faq, index) => (
               <div key={index} className="flex flex-col gap-y-2">

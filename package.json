@@ -2,7 +2,7 @@
   "scripts": {
     "build:gln": "cd gln && npm ci && npm run build",
     "build:main": "cd main-site && npm ci && npm run build",
-    "prepare:deploy": "npm run build:gln && npm run build:main && rm -rf main-site/build/boltbert main-site/build/gln && mkdir -p main-site/build && cp -r boltbert main-site/build/boltbert && cp -r main/dist/gln main-site/build/gln",
+    "prepare:deploy": "npm run build:gln && npm run build:main && rm -rf main-site/build/boltbert main-site/build/gln && mkdir -p main-site/build && cp -r boltbert main-site/build/boltbert && cp -r main/dist/gln main-site/build/gln && cp -r main-site/dist/* main-site/build/",
     "build": "npm run prepare:deploy"
   }
 }
