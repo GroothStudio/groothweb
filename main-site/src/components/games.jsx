@@ -8,7 +8,7 @@ export const Games = () => {
       <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
         Our Games
       </h1>
-      <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] justify-center">
+      <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] max-md:pb-[10vh] justify-center">
       <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-fit max-md:h-[80vh] m-0 flex items-center justify-center">
         <BorderBox className="w-[93vw] h-[40vh] max-md:h-[80vh] m-4">
           <div className="flex p-[3vw] justify-start gap-[3vw] max-md:flex-col">

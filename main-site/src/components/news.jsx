@@ -22,21 +22,9 @@ const NewestNews = () => {
 
   if (loading) {
     return (
-      <FadeContent
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[100vh] max-md:h-[80vh] m-0 flex items-center justify-center">
 
-      distance={60}
-      direction="vertikal"
-      reverse={false}
-      duration={0.8}
-      ease="bounce.out"
-      initialOpacity={0.2}
-      animateOpacity
-      scale={1.1}
-      threshold={0.2}
-      delay={0.2}
-
-      >
-      <BorderBox className="w-[93vw] h-[93vh] m-4 flex items-center p-[3vw]">
+      <BorderBox className="w-[93vw] h-[93vh] max-md:h-[70vh] m-4 flex items-center p-[3vw]">
         Loading...
       </BorderBox></FadeContent>
     );
@@ -44,17 +32,15 @@ const NewestNews = () => {
 
   if (!news) {
     return (
-        <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[100vh] max-md:h-[80vh] m-0 flex items-center justify-center">
-
-      <BorderBox className="w-[93vw] h-[93vh] m-4 flex items-center p-[3vw]">
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[100vh] max-md:h-[80vh] m-0 flex items-center justify-center">
+      <BorderBox className="w-[93vw] h-[93vh] max-md:h-[70vh] m-4 flex items-center p-[3vw]">
         No news found.
       </BorderBox></FadeContent>
     );
   }
 
   return (
-      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[100vh] max-md:h-[80vh] m-0 flex items-center justify-center">
-
+  <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[93vh] max-md:h-[70vh] m-0 flex items-center justify-center">
     <BorderBox className="w-[93vw] h-[70vh] m-4 flex flex-col p-[3vw] justify-start gap-[3vw]">
       <div className="bg-[#3A86FE] rounded-t-3xl w-full px-[2vw] py-[1vw]">
         <h2 className="text-[2.088vw] text-white font-semibold">
@@ -81,7 +67,7 @@ export const News = () => {
       <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
         News
       </h1>
-      <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] justify-center">
+      <div className="flex flex-wrap gap-[2vw] pt-[5vh] max-md:pt-[0vh] pb-[20vh] max-md:pb-[10vh] justify-center">
         <NewestNews />
       </div>
     </div>

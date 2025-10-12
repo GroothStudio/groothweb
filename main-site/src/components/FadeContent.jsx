@@ -19,10 +19,13 @@ const FadeContent = ({
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          observer.unobserve(ref.current);
+          // Delay setting inView to true
           setTimeout(() => {
             setInView(true);
           }, delay);
+        } else {
+          // Reset when out of view to allow re-animation
+          setInView(false);
         }
       },
       { threshold }

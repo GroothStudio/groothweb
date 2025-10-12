@@ -53,7 +53,7 @@ const anggota2 = () => {
   return a.map((anggota, index) => (
       <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0}>
       <BorderBox
-        className="w-[86%] max-xl:w-[93vw] max-md:h-[44vh] h-[60vh] lg:h-[37vw] flex flex-col p-[1vw]"
+        className="w-[86%] max-xl:w-[93vw] max-md:h-fit max-md:pt-[5vh] max-md:pb-[5vh] h-[60vh] lg:h-[37vw] flex flex-col p-[1vw]"
       >
         <div className="flex flex-col h-[90%] max-md:h-[85%] justify-around max-xl:items-center max-md:gap-[32px]">
           <div className="top-20 w-[39.5vw] max-xl:w-[85%] flex flex-col gap-[40px] max-md:gap-[16px] lg:gap-[26px]">
@@ -72,7 +72,7 @@ const anggota2 = () => {
                 </h3>
               </div>
             </div>
-            <p className="text-[1.2vw] max-xl:text-[12px] font-400 mt-2 lg:text-[16px]">
+            <p className="text-[1.2vw] max-xl:text-[18px] max-md:text-[12px] font-400 mt-2 lg:text-[16px]">
               {anggota.keterangan}
             </p>
           </div>
@@ -91,7 +91,7 @@ export const Anggota = () => {
   return (
     <div className="w-full flex xl:justify-center">
       <div className="max-md:max-w-[100vw] max-md:w-[100vw] max-w-[93vw] w-[93vw]">
-        <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
+        <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start text-[#3A86FE] mb-[20px]">
           Our Member
         </h1>
 
@@ -103,9 +103,10 @@ export const Anggota = () => {
             grid-cols-1
             xl:grid-cols-2
             gap-y-[6vw]
-            max-xl:gap-[10vw]
+            max-xl:gap-[6vw]
             pt-[5vh]
             pb-[20vh]
+            max-md:pb-[10vh] 
             max-xl:grid-cols-1
           "
           style={{

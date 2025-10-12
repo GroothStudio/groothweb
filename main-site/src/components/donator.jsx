@@ -20,9 +20,9 @@ export const Donator = () => {
                     mouseConstraintStiffness={0.6}
                     />
                 </BorderBox>
-                <div className="flex flex-row text-poppins h-[30px] max-md:text-[24px] max-md:h-[24px] text-[30px] gap-[10px] items-center justify-center text-[#3A86FE] self-start font-semibold">
-                    <img src={Ig} alt="" />
-                    <p>grooth_studio</p>
+                <div className="flex flex-row text-poppins h-[30px] max-md:text-[24px] max-md:h-[24px] text-[24px] max-md:text-[24px] gap-[10px] items-center justify-center text-[#3A86FE] self-start font-semibold">
+                    <img src={Ig} alt="" className="max-md:h-[24px]"/>
+                    <p className="max-md:text-[20px]">grooth_studio</p>
                 </div>
             </div>
     </div>)}
