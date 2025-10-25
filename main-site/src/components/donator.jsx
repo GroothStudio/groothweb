@@ -9,10 +9,10 @@ export const Donator = () => {
             <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE]">Our Donator</h1>
                 <BorderBox className="w-[100%] h-[73vh]">
                     <FallingText
-                    text={`Fredrick Grookey Alvin Lim Jimmy Denny Christine Welly`}
-                    highlightWords={["Fredrick", "Grookey", "Alvin Lim", "Jimmy", "Denny", "Christine", "Welly"]}
+                    text={`Fredrick Grookey Alvin Lim Jimmy Denny Christine Welly Steven Chen`}
+                    highlightWords={["Fredrick", "Grookey", "Alvin Lim", "Jimmy", "Denny", "Christine", "Welly", "Steven Chen"]}
                     highlightClass="highlighted"
-                    trigger="hover"
+                    trigger="scroll"
                     backgroundColor="transparent"
                     wireframes={false}
                     gravity={0.3}
