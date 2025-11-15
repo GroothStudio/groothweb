@@ -21,7 +21,7 @@ export const Donator = ({scrollToSection}) => {
                     mouseConstraintStiffness={0.6}
                     />
                 </BorderBox>
-                <div className="w-screen h-[70vh] bg-blue-500 flex flex-col items-center max-xl:hidden">
+                <div className="w-screen h-[70vh] bg-blue-500 flex flex-col items-center max-xl:hidden relative">
                     <div className="h-[33vh] flex flex-row w-[90vw] justify-around pt-25">
                         <div>
                             <h1 className="font-[700] text-[24px] text-white">Quick Access</h1>
@@ -112,11 +112,11 @@ export const Donator = ({scrollToSection}) => {
                             <p className="text-[12px] text-right text-white pt-2">© 2025 Grooth Studio. All rights reserved.</p>
                         </div>
                     </div>
-                    <div className="h-[250px]">
+                    <div className="h-[270px] absolute bottom-0">
                         <h1 className="text-[250px] font-[800] text-white">GROOTHS</h1>
                     </div>
                 </div>
-                <div className="w-screen h-[65vh] bg-blue-500 flex flex-col items-center max-md:hidden xl:hidden">
+                <div className="w-screen h-[65vh] bg-blue-500 flex flex-col items-center max-md:hidden xl:hidden relative">
                     <div className="h-[33vh] flex flex-row w-[90vw] justify-around pt-15">
                         <div>
                             <h1 className="font-[700] text-[20px] text-white">Quick Access</h1>
@@ -208,11 +208,11 @@ export const Donator = ({scrollToSection}) => {
                             <hr className="text-white bg-white h-[4px] mt-2" />
                             <p className="text-[10px] text-right text-white pt-2">© 2025 Grooth Studio. All rights reserved.</p>
                         </div>
-                    <div className="h-[150px]">
+                    <div className="h-[160px] absolute bottom-0">
                         <h1 className="text-[150px] font-[800] text-white">GROOTHS</h1>
                     </div>
                 </div>
-          <div className="w-screen h-[42vh] bg-blue-500 flex flex-col items-center md:hidden xl:hidden">
+          <div className="w-screen h-[42vh] bg-blue-500 flex flex-col items-center md:hidden xl:hidden relative">
             <div className="w-[90vw] grid grid-cols-2 gap-6 pt-20 pb-10">
 
                 <div>
@@ -307,8 +307,8 @@ export const Donator = ({scrollToSection}) => {
                             <hr className="text-white bg-white h-[4px] mt-2" />
                             <p className="text-[10px] text-right text-white pt-2">© 2025 Grooth Studio. All rights reserved.</p>
                         </div>
-                    <div className="h-[150px]">
-                        <h1 className="text-[80px] font-[800] text-white">GROOTHS</h1>
+                    <div className="h-[95px] absolute bottom-0">
+                        <h1 className="text-[90px] font-[800] text-white">GROOTHS</h1>
                     </div>
             </div>
             </div>
