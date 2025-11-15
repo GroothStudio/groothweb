@@ -14,7 +14,7 @@ const anggota2 = () => {
       jabatan: "Unity Developer",
       keterangan:
         "Boltbert brings the game to life—literally. As the Unity developer, he transforms design and code into an interactive experience that players can touch, see, and feel. He crafts the gameplay mechanics, visual effects, and player controls that define how the world behaves and responds. His expertise turns ideas into a fully playable reality.",
-      link: "https://grooths.com/boltbert",
+      link: "https://boltbert.grooths.com/",
       profil: BoltbertImg,
     },
     {
@@ -22,7 +22,7 @@ const anggota2 = () => {
       jabatan: "Designer",
       keterangan:
         "Glenndovin is the visionary who shapes the world’s aesthetics. From UI layout to environment concept art, he ensures that everything not only looks beautiful but also feels intuitive. His designs create the first impression and the lasting emotional tone of the game, guiding players visually and emotionally through the experience.",
-      link: "https://grooths.com/gln",
+      link: "https://gln.grooths.com/",
       profil: GlendovinnImg,
     },
     {
@@ -119,4 +119,3 @@ export const Anggota = () => {
     </div>
   );
 };
-
