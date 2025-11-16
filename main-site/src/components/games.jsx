@@ -9,11 +9,11 @@ export const Games = () => {
         Our Games
       </h1>
       <div className="flex flex-wrap gap-[2vw] pt-[5vh] pb-[20vh] max-md:pb-[10vh] justify-center">
-      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-fit max-md:h-[80vh] m-0 flex items-center justify-center">
-        <BorderBox className="w-[93vw] h-[40vh] max-md:h-[80vh] m-4">
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-fit m-0 flex items-center justify-center">
+        <BorderBox className="w-[93vw] h-[40vh] max-md:h-fit m-4">
           <div className="flex p-[3vw] justify-start gap-[3vw] max-md:flex-col">
           <img
-            className="h-[30vh] max-md:w-[30vw] max-md:h-auto self-center"
+            className="h-[30vh] max-md:w-fit max-md:h-auto self-center"
             src={OurGamesLogo}
           />
           <div className="flex flex-col justify-around items-center h-[34vh] max-md:h-[38vh]">
