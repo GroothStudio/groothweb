@@ -91,7 +91,7 @@ export const Anggota = () => {
   return (
     <div className="w-full flex xl:justify-center">
       <div className="max-md:max-w-[100vw] max-md:w-[100vw] max-w-[93vw] w-[93vw]">
-        <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start text-[#3A86FE] mb-[20px]">
+        <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start text-[#3A86FE] mb-[20px] max-md:pl-[3.5vw]">
           Our Member
         </h1>
 
