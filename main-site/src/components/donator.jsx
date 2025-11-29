@@ -5,7 +5,7 @@ import Ig2 from "../assets/Vector2.svg"
 
 export const Donator = ({scrollToSection}) => {
     return (
-        <div className="w-[100vw] h-fit m-0 p-auto flex flex-col font-600 text-semibold font-[48px] items-center justify-center">
+        <div className="w-[100vw] h-fit m-0 p-0 flex flex-col font-600 text-semibold font-[48px] items-center justify-center">
             <div className="w-[93%] h-[100%] flex flex-col items-center justify-center gap-[50px]">
             <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE]">Our Donator</h1>
                 <BorderBox className="w-[100%] h-[100vh]">
@@ -212,7 +212,7 @@ export const Donator = ({scrollToSection}) => {
                         <h1 className="text-[150px] font-[800] text-white">GROOTHS</h1>
                     </div>
                 </div>
-          <div className="w-screen h-[42vh] bg-blue-500 flex flex-col items-center md:hidden xl:hidden relative">
+          <div className="w-screen h-[55vh] bg-blue-500 flex flex-col items-center md:hidden xl:hidden relative">
             <div className="w-[90vw] grid grid-cols-2 gap-6 pt-20 pb-10">
 
                 <div>
@@ -308,7 +308,7 @@ export const Donator = ({scrollToSection}) => {
                             <p className="text-[10px] text-right text-white pt-2">© 2025 Grooth Studio. All rights reserved.</p>
                         </div>
                     <div className="h-[95px] absolute bottom-0">
-                        <h1 className="text-[90px] font-[800] text-white">GROOTHS</h1>
+                        <h1 className="text-[18vw] font-[800] text-white">GROOTHS</h1>
                     </div>
             </div>
             </div>

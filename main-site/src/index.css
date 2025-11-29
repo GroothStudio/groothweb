@@ -112,7 +112,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+a{
+  cursor: pointer;
+}
 html {
   max-width: 100vw;
   overflow-x: hidden;

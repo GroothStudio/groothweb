@@ -53,7 +53,7 @@ const anggota2 = () => {
   return a.map((anggota, index) => (
       <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0}>
       <BorderBox
-        className="w-[86%] max-xl:w-[93vw] max-md:h-fit max-md:pt-[5vh] max-md:pb-[5vh] h-[60vh] lg:h-[37vw] flex flex-col p-[1vw]"
+        className="l:w-[86%] md:w-[93%] max-md:w-[93vw] max-md:h-fit max-md:pt-[5vh] max-md:pb-[5vh] h-[60vh] lg:h-[37vw] flex flex-col p-[1vw]"
       >
         <div className="flex flex-col h-[90%] max-md:h-[85%] justify-around max-xl:items-center max-md:gap-[32px]">
           <div className="top-20 w-[39.5vw] max-xl:w-[85%] flex flex-col gap-[40px] max-md:gap-[16px] lg:gap-[26px]">
@@ -77,7 +77,7 @@ const anggota2 = () => {
             </p>
           </div>
           <a href={anggota.link}>
-            <button className="w-[39.5vw] h-[4.5vw] bg-[#3A86FE] max-xl:w-[77vw] max-md:h-[9vw] max-md:rounded-[6vw] rounded-[1.5vw] text-[white] lg:text-[24px] cursor-pointer">
+            <button className="w-[39.5vw] h-[4.5vw] bg-[#3A86FE] max-xl:w-[77vw] max-md:h-[9vw] max-md:rounded-[6vw] rounded-[1.5vw] text-[white] lg:text-[24px] cursor-pointer hover:shadow-md">
               Open Portofolio
             </button>
           </a>
@@ -91,7 +91,7 @@ export const Anggota = () => {
   return (
     <div className="w-full flex xl:justify-center">
       <div className="max-md:max-w-[100vw] max-md:w-[100vw] max-w-[93vw] w-[93vw]">
-        <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start text-[#3A86FE] mb-[20px] max-md:pl-[3.5vw]">
+        <h1 className="text-600 font-semibold xl:text-[48px] md:text-[36px] max-md:text-[24px] font-poppins text-start text-[#3A86FE] mb-[20px] max-md:pl-[3.5vw]">
           Our Member
         </h1>
 

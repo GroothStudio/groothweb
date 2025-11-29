@@ -10,8 +10,8 @@ export const GroothStudioIntro = () => {
           <a href="http://grooths.com" className="absolute top-2 left-2 cursor-pointer w-fit h-fit rounded-xl max-md:hidden"><img src={Logo} alt="" className="cursor-pointer"/></a>
           <div className="max-h-[30%] text-center flex flex-col max-md:gap-[45px] items-center justify-center relative">
             <img src={Ikan} alt="Grooth Studio" className="w-[70%] max-md:w-[100%]"/>
-            <p className="mt-10 max-md: text-left text-base text-[500] text-[20.5px] max-md:text-[14px] leading-relaxed font-normal w-[73%] max-md:w-[90%]">
-              Grooth Studio is an indie game development group founded on April
+            <p className="text-left text-base text-[500] text-[20.5px] max-md:text-[14px] leading-relaxed font-normal w-[73%] max-md:w-[90%]">
+              <b>Grooth Studio</b> is an indie game development group founded on April
               19, 2024. We focus on creating and developing fun and innovative 2D
               games, aiming to offer players a unique and enjoyable experience.
               Our team consists of talented and dedicated members, each with

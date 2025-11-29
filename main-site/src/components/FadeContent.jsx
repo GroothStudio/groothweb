@@ -19,12 +19,10 @@ const FadeContent = ({
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          // Delay setting inView to true
           setTimeout(() => {
             setInView(true);
           }, delay);
         } else {
-          // Reset when out of view to allow re-animation
           setInView(false);
         }
       },
