@@ -307,10 +307,11 @@ export const Donator = ({scrollToSection}) => {
                             <hr className="text-white bg-white h-[4px] mt-2" />
                             <p className="text-[10px] text-right text-white pt-2">© 2025 Grooth Studio. All rights reserved.</p>
                         </div>
-                    <div className="h-[95px] absolute bottom-0">
+                    <div className="h-[100px] absolute bottom-0">
                         <h1 className="text-[18vw] font-[800] text-white">GROOTHS</h1>
                     </div>
             </div>
             </div>
     </div>)}
+
     
