@@ -1,5 +1,10 @@
 [
   {
+    "date": "2025-02-23",
+    "title": "Anjing gila mati",
+    "description": "Ditembak
+  },
+  {
     "date": "2026-01-07",
     "title": "Lorem Ipsum",
     "description": "Lorem ipsum dolor sit amet."
