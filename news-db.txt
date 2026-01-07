@@ -1,11 +1,11 @@
 [
   {
-    "date": "2026-02-23",
+    "date": "2026-01-07",
     "title": "Anjing gila mati",
     "description": "Ditembak
   },
   {
-    "date": "2026-01-07",
+    "date": "2026-01-06",
     "title": "Lorem Ipsum",
     "description": "Lorem ipsum dolor sit amet."
   }
