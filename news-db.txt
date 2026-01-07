@@ -2,7 +2,7 @@
   {
     "date": "2026-01-07",
     "title": "Anjing gila mati",
-    "description": "Ditembak
+    "description": "Ditembak"
   },
   {
     "date": "2026-01-06",
