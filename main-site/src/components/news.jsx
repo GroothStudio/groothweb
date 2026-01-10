@@ -7,11 +7,14 @@ const NewestNews = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/news/latest")
+    fetch("https://raw.githubusercontent.com/GroothStudio/groothweb/refs/heads/main/news-db.txt")
       .then((res) => res.json())
       .then((data) => {
-        setNews(data.data);
-        console.log(data.data);
+        const sortedNews = data.slice().sort((a, b) => new Date(b.date) - new Date(a.date));
+        console.log(sortedNews)
+        const latestNews = sortedNews[0]
+
+        setNews(latestNews)
         setLoading(false);
       })
       .catch((err) => {
@@ -44,11 +47,7 @@ const NewestNews = () => {
     <BorderBox className="w-[93vw] h-[70vh] m-4 flex flex-col p-[3vw] justify-start gap-[3vw]">
       <div className="bg-[#3A86FE] rounded-t-3xl w-full px-[2vw] py-[1vw]">
         <h2 className="text-[2.088vw] text-white font-semibold">
-          {new Date(news.updatedAt).toLocaleString("en-US", {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          })}
+          {news.title}
         </h2>
       </div>
       <div className=" flex flex-col px-[7vh] justify-start items-start w-full">
