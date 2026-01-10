@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-01-07",
-    "title": "Anjing gila mati",
-    "description": "Ditembak"
+    "title": "Testing",
+    "description": "123456"
   },
   {
     "date": "2026-01-06",
