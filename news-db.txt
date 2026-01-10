@@ -1,8 +1,8 @@
 [
   {
     "date": "2026-01-07",
-    "title": "Testing",
-    "description": "123456"
+    "title": "Bladeable",
+    "description": "Released Level 3"
   },
   {
     "date": "2026-01-06",
