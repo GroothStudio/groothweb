@@ -1,1 +1,7 @@
-
+{
+  "scripts": {
+    "build:main": "cd main-site && npm ci && npm run build",
+    "prepare:deploy": "npm run build:main",
+    "build": "npm run prepare:deploy"
+  }
+}
