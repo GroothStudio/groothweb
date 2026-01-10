@@ -1,8 +1,7 @@
 {
   "scripts": {
     "build:main": "cd main-site && npm ci && npm run build",
-    "prepare:deploy": "npm run build:main && cp -r main-site/build/* . && rm -rf main-site",
-    "build": "npm run prepare:deploy"
+    "build": "npm run build:main"
   }
 }
 
