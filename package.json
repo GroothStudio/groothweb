@@ -1,8 +1,9 @@
 {
   "scripts": {
     "build:main": "cd main-site && npm ci && npm run build",
-    "build": "npm run build:main"
+    "build": "npm run build:main && cp -r main-site/build/* ."
   }
 }
+
 
 
