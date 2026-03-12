@@ -1,5 +1,13 @@
 [
   {
+    "date": "2026-03-12",
+    "title": "Bladeable Escape The Universe",
+    "description": "Bladeable Escape The Universe is available on Play Store now!
+
+Run as far as you can in this fast-paced 2D endless runner set in a universe on the brink of collapse.
+There are no coins and no distractions — only your skill, timing, and reflexes stand between survival and extinction."
+  },
+  {
     "date": "2026-01-07",
     "title": "Bladeable",
     "description": "Released Level 3"
