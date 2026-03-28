@@ -24,11 +24,11 @@ export const Games = () => {
 
   return (
     <div className="w-[100vw] h-fit mt-20 p-auto flex flex-col">
-      <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
+      <h1 className="text-600 font-semibold xl:text-[48px] md:text-[36px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
         Our Games
       </h1>
 
-      <div className="flex flex-wrap gap-[1.5vw] pt-[5vh] pb-[20vh] max-md:pb-[10vh] justify-center">
+      <div className="flex flex-wrap gap-[1.5vw] pt-[5vh] max-2xl:pb-[5vh] pb-[10vh] max-lg:pb-[5vh] justify-center">
         {games.map((game, index) => (
           <FadeContent
             key={index}

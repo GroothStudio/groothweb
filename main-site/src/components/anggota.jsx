@@ -105,7 +105,7 @@ export const Anggota = () => {
             gap-y-[6vw]
             max-xl:gap-[6vw]
             pt-[5vh]
-            pb-[20vh]
+            pb-[10vh]
             max-md:pb-[10vh] 
             max-xl:grid-cols-1
           "

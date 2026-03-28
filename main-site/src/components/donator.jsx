@@ -6,9 +6,9 @@ import Ig2 from "../assets/Vector2.svg"
 export const Donator = ({scrollToSection}) => {
     return (
         <div className="w-[100vw] h-fit m-0 p-0 flex flex-col font-600 text-semibold font-[48px] items-center justify-center">
-            <div className="w-[93%] h-[100%] flex flex-col items-center justify-center gap-[50px]">
-            <h1 className="text-600 font-semibold text-[48px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE]">Our Donator</h1>
-                <BorderBox className="w-[100%] h-[100vh]">
+            <div className="w-[93%] h-[100%] flex flex-col items-center justify-center gap-[50px] max-lg:pt-[5vh] max-xl:pt-[5vh] max-2xl:pt-[5vh] pt-[10vh]">
+            <h1 className="text-600 font-semibold xl:text-[48px] md:text-[36px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE]">Our Donator</h1>
+                <BorderBox className="w-[100%] h-[93vh]">
                     <FallingText
                     text={`Fredrick Grookey Alvin Lim Jimmy Denny Christine Welly Steven Chen Ezio Pasaribu`}
                     highlightWords={["Fredrick", "Grookey", "Alvin Lim", "Jimmy", "Denny", "Christine", "Welly", "Steven Chen", "Ezio Pasaribu"]}
