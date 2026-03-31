@@ -44,9 +44,9 @@ const NewestNews = () => {
 
   return (
   <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-[79vh] max-sm:h-[24vh] max-lg:h-[26vh] max-xl:h-[28vh] max-2xl:h-[38vh] m-0 flex items-center justify-center">
-    <BorderBox className="w-[93vw] h-[70vh] max-sm:h-[20vh] max-lg:h-[23vh] max-2xl:h-[35vh] max-xl:h-[20vh] m-4 flex flex-col p-[3vw] ">
-      <div className="bg-[#3A86FE] rounded-t-3xl w-full px-[2vw] py-[1vw] max-sm:py-[0]">
-        <h2 className="text-[2.088vw] text-white font-semibold">
+    <BorderBox className="w-[93vw] h-[70vh] max-sm:h-[24vh] max-lg:h-[23vh] max-2xl:h-[35vh] max-xl:h-[20vh] m-4 flex flex-col p-[3vw] max-sm:gap-2">
+      <div className="bg-[#3A86FE] rounded-t-3xl w-full px-[2vw] py-[1vw] max-sm:py-[1vw] max-sm:px-[2vw] max-sm:rounded-t-md">
+        <h2 className="text-[2.088vw] max-sm:text-[3.5vw] text-white font-semibold">
           {news.title}
         </h2>
       </div>
