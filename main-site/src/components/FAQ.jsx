@@ -28,13 +28,13 @@ export const FAQ = () => {
     "pl-17 max-md:pl-6 py-4 pr-4 w-[86vw] bg-[#3A86FE] text-white max-md:text-[14px] max-md:font-[500]";
 
   return (
-    <div className="w-[100vw] h-[93vh] max-lg:h-[74vh] mt-20 p-auto max-lg:pb-[5vh] flex flex-col">
+    <div className="w-[100vw] h-[93vh] max-lg:h-[54vh] max-md:h-[550px] max-2xl:h-[550px] max-xl:h-[650px] p-auto max-lg:pb-[5vh] flex flex-col">
       <h1 className="text-600 font-semibold xl:text-[48px] md:text-[36px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE] mb-[20px] pl-[3.5vw]">
         FAQ
       </h1>
-      <div className="flex flex-wrap pt-[5vh] pb-[10vh] max-lg:pb-[5vh] justify-center">
-      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-fit max-lg:h-[55vh] m-0 flex items-center justify-center">
-          <BorderBox className="w-[93vw] h-[70vh] max-lg:h-[55vh] m-4 py-[8vh] px-[3vw] justify-around items-start gap-[1vw] flex-col">
+      <div className="flex flex-wrap pt-[5vh] max-md:pt-[120px] max-lg:pt-[10vh] pb-[10vh] max-lg:pb-[5vh] justify-center">
+      <FadeContent blur={true} duration={700} easing="ease-out" initialOpacity={0} className="w-[100vw] h-fit max-lg:h-[30vh] m-0 flex items-center justify-center">
+          <BorderBox className="w-[93vw] h-[70vh] max-md:h-[400px] max-lg:h-[35vh] max-xl:h-[30vh] max-2xl:h-[45vh] m-4 py-[8vh] max-lg:py-[2vh] px-[3vw] justify-around items-start gap-[1vw] flex-col">
             {faqs.map((faq, index) => (
               <div key={index} className="flex flex-col gap-y-2">
                 <div
