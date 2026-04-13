@@ -18,7 +18,7 @@ const anggota2 = () => {
       profil: BoltbertImg,
     },
     {
-      nama: "Glenndovin",
+      nama: "Glenndovin Dherrel Junaidy",
       jabatan: "Designer",
       keterangan:
         "Glenndovin is the visionary who shapes the world’s aesthetics. From UI layout to environment concept art, he ensures that everything not only looks beautiful but also feels intuitive. His designs create the first impression and the lasting emotional tone of the game, guiding players visually and emotionally through the experience.",
