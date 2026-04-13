@@ -76,7 +76,7 @@ const anggota2 = () => {
               {anggota.keterangan}
             </p>
           </div>
-          <a href={anggota.link}>
+          <a href={anggota.link} target="_blank" rel="noopener noreferrer">
             <button className="w-[39.5vw] h-[4.5vw] bg-[#3A86FE] max-xl:w-[77vw] max-md:h-[9vw] max-md:rounded-[6vw] rounded-[1.5vw] text-[white] lg:text-[24px] cursor-pointer hover:shadow-md">
               Open Portofolio
             </button>
