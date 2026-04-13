@@ -7,14 +7,4 @@
     <priority>1.0</priority>
   </url>
 
-  <url>
-    <loc>https://gln.grooths.com</loc>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://boltbert.grooths.com</loc>
-    <priority>0.8</priority>
-  </url>
-
 </urlset>
