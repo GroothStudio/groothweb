@@ -52,10 +52,10 @@ const NewestNews = () => {
       </div>
       <div className=" flex flex-col px-[7vh] max-lg:px-[1vw] w-full">
         <h2 className="text-[2.569vw]">Grooth Studio Team: </h2>
-        <p className="whitespace-pre text-[min(2.7vw,15px)] sm:text-[15px] md:text-[16px] lg:text-[15px] xl:text-[15px] leading-relaxed">
+        <p className="text-[min(2.7vw,15px)] sm:text-[15px] md:text-[16px] lg:text-[15px] xl:text-[15px] leading-relaxed">
           {news.description}
         </p>
-        {/* <img src={news.image} alt={news.title} className="w-full h-auto mt-4" /> */}
+        <img src={news.image} alt={news.title} className="w-full h-auto mt-4" />
       </div>
     </BorderBox></FadeContent>
   );
