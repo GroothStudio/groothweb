@@ -2,7 +2,7 @@
   {
     "date": "2026-04-19",
     "title": "Announcement",
-    "description": "From our first line of code to the worlds we've built at Grooth Studio, it's been a journey of constant growth. But every great story needs a physical manifestation. To celebrate our 2nd anniversary, we've forged something tangible. Something sharp. Something that brings our vision into your world.",
+    "description": "From our first line of code to the worlds we've built at Grooth Studio, it's been a journey of constant growth. But every great story needs a physical manifestation. To celebrate our 2nd anniversary, we've forged something tangible. Something sharp. Something that brings our vision into your world."
   },
     
   {
