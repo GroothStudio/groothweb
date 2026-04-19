@@ -1,8 +1,8 @@
 [
   {
-    "date": "2026-03-12",
+    "date": "2026-04-19",
     "title": "Bladeable",
-    "description": "Bladeable Escape The Universe is available on Play Store now!  Run as far as you can in this fast-paced 2D endless runner set in a universe on the brink of collapse. There are no coins and no distractions — only your skill, timing, and reflexes stand between survival and extinction."
+    "description": "From our first line of code to the worlds we've built at Grooth Studio, it's been a journey of constant growth. But every great story needs a physical manifestation.<br><br>To celebrate our 2nd anniversary, we've forged something tangible. Something sharp. Something that brings our vision into your world.<br><br><a href='https://www.instagram.com/p/DXSz2PAE9F7/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=='>Learn more!!</a>"
   },
   {
     "date": "2026-01-06",
