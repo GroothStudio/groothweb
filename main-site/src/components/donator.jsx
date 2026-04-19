@@ -21,7 +21,7 @@ export const Donator = ({scrollToSection}) => {
                     mouseConstraintStiffness={0.6}
                     />
                 </BorderBox>
-                <div className="w-screen h-[70vh] bg-blue-500 flex flex-col items-center max-xl:hidden relative">
+                <div className="w-screen xl:h-[90vh] 2xl:h-[60vh] bg-blue-500 flex flex-col items-center max-xl:hidden relative">
                     <div className="h-[33vh] flex flex-row w-[90vw] justify-around pt-25">
                         <div>
                             <h1 className="font-[700] text-[24px] text-white">Quick Access</h1>
@@ -307,7 +307,7 @@ export const Donator = ({scrollToSection}) => {
                             <hr className="text-white bg-white h-[4px] mt-2" />
                             <p className="text-[10px] text-right text-white pt-2">©{new Date().getFullYear()} Grooth Studio. All rights reserved.</p>
                         </div>
-                    <div className="h-min[300px] h-auto absolute bottom-0">
+                    <div className="h-fit absolute bottom-0">
                         <h1 className="text-[18vw] font-[800] text-white">GROOTHS</h1>
                     </div>
             </div>
