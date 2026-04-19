@@ -1,9 +1,11 @@
 [
   {
     "date": "2026-04-19",
-    "title": "Bladeable",
-    "description": "From our first line of code to the worlds we've built at Grooth Studio, it's been a journey of constant growth. But every great story needs a physical manifestation.<br><br>To celebrate our 2nd anniversary, we've forged something tangible. Something sharp. Something that brings our vision into your world.<br><br><a href='https://www.instagram.com/p/DXSz2PAE9F7/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA=='>Learn more!!</a>"
+    "title": "Announcement",
+    "description": "From our first line of code to the worlds we've built at Grooth Studio, it's been a journey of constant growth. But every great story needs a physical manifestation.
+    To celebrate our 2nd anniversary, we've forged something tangible. Something sharp. Something that brings our vision into your world."
   },
+    "image": "../assets/merch.png"
   {
     "date": "2026-01-06",
     "title": "Lorem Ipsum",
