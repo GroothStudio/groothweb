@@ -55,7 +55,7 @@ const NewestNews = () => {
         <p className="text-[min(2.7vw,15px)] sm:text-[15px] md:text-[16px] lg:text-[15px] xl:text-[15px] leading-relaxed">
           {news.description}
         </p>
-        <img src={news.image} alt={news.title} className="w-full h-auto mt-4" />
+        <img src='../assets/merch.png' alt={news.title} className="w-full h-auto mt-4" />
       </div>
     </BorderBox></FadeContent>
   );
