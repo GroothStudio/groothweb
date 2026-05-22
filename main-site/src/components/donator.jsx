@@ -10,8 +10,8 @@ export const Donator = ({scrollToSection}) => {
             <h1 className="text-600 font-semibold xl:text-[48px] md:text-[36px] max-md:text-[24px] font-poppins text-start self-start text-[#3A86FE]">Our Donator</h1>
                 <BorderBox className="w-[100%] h-[93vh] max-lg:h-[60vh] max-xl:h-[40vh]">
                     <FallingText
-                    text={`Fredrick Grookey Alvin Lim Jimmy Denny Christine Welly Steven Chen Ezio Pasaribu`}
-                    highlightWords={["Fredrick", "Grookey", "Alvin Lim", "Jimmy", "Denny", "Christine", "Welly", "Steven Chen", "Ezio Pasaribu"]}
+                    text={`Fredrick Grookey Alvin Lim Jimmy Denny Christine Welly Steven Chen Ezio Pasaribu Tohiro Wong`}
+                    highlightWords={["Fredrick", "Grookey", "Alvin Lim", "Jimmy", "Denny", "Christine", "Welly", "Steven Chen", "Ezio Pasaribu Tohiro Wong"]}
                     highlightClass="highlighted"
                     trigger="scroll"
                     backgroundColor="transparent"
