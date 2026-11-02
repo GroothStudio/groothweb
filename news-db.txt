@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-11-2",
+    "title": "Announcement",
+    "description": "Our server unexpectedly experienced a critical failure, and we are currently working to recover as much data as possible.
+
+We sincerely apologize for the inconvenience and disruption this has caused. We understand how frustrating this situation may be, and we take full responsibility for the data loss resulting from this incident.
+
+We are committed to do everything. We try to recover the affected data and address the situation. Thank you for your patience and understanding as we work through this."
+  },
+  {
     "date": "2026-05-16",
     "title": "Bladeable",
     "description": "Bladeable Level 5 is officially live on PlayStore"
