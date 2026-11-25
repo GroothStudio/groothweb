@@ -1,0 +1,55 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+html {
+  scrollbar-width: none;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/font/Montserrat-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+.jepun{
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+html, body{
+  background-color: black;
+  font-family: "Montserrat";
+  font-weight: 300;
+  overflow-x: hidden;
+}
